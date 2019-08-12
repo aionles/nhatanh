@@ -1,7 +1,7 @@
-##React
+## React
 
 
-###Refreshing Array Functions
+### Refreshing Array Functions
 Now over the last lectures I introduced you to some of the most important next generation javascript
 
 features which you're going to see in those course.
