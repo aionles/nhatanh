@@ -3,6 +3,7 @@
 
 ### Refreshing Array Functions
 (((-Các lệnh gán trong react thì chỉ sao chép địa chỉ con trỏ chứ không sao chép giá trị vì lẽ đó khi thay đổi giá trị tại địa chỉ thì đối tượng mới cũng thay đổi. Nên nếu muốn sao chép thực sự thì ta phải tạo một đối tượng hoàn toàn mới và sao chép giá trị của đối tượng cũ chứ không phải hoàn toàn đối tượng. với systax sau: const secondPerson={...person};)))
+
 Now over the last lectures I introduced you to some of the most important next generation javascript
 
 features which you're going to see in those course.
@@ -110,3 +111,75 @@ Therefore if you want to do this in a real copy way, you will have to create a n
 the properties and not the entire object.
 
 That's something very important to keep in mind for this course.
+
+
+## Refret Array Function
+In the last lecture we had a look at reference of primitive types something super important to keep
+
+in mind when working with javascript.
+
+Another thing you will see quite a lot in this course are array functions.
+
+We already saw filter a couple of lectures ago.
+
+We also got sort, map and so on.
+
+Let me quickly show you what I mean.
+
+The good old numbers array with 1, 2 and 3.
+
+Now let's say we want to turn this into an array where each number is doubled.
+
+So we have to doubleNumArray, something like that we can use an array function for this.
+
+We can take the numbers array and call map.
+
+Map is a built-in array method.
+
+And there are many of these methods.
+
+I will use quite a lot of them and they're not.
+
+Next generation javascript all these methods work in the same way though they take a function as an
+
+input and this function which is an arrow function here but could be a normal function is then simply
+
+executed on each element in the array here.
+
+So on each element in the numbers array, on 1 and 2 and 3.
+
+So therefore what we get in this arrow function is a number in the end.
+
+But you can name this argument whatever you want here.
+
+We can then simply return something.
+
+And what you have to do in this internal function depends on which area of function you are using.
+
+Check the docs in places like d Mozilla Developer Network docs to learn more about the available array
+
+functions.
+
+So in the map function we have to return the new value we want to turn the old one into so we could
+
+return num * 2 and since this is executed on every element here.
+
+It will return 2, 4 and 6 and conveniently map all the returns a new array.
+
+So a real new array which is then stored in doubleNumArray.
+
+So now if I output numbers and thereafter doubleNumArray like this and then I'll hit run you'll see
+
+the old one is unchanged but the new one holds double the values and I will explain what these functions
+
+do when we use them in the course.
+
+I just want to bring them to your attention right now.
+
+Explain that they always have this function which gets executed on each element and that they are not
+
+next generation javascript but normal javascript actually, be prepared to meet them.
+
+I will explain what they do when we see them and always feel free to dive into docs like the Mozilla
+
+developer network to learn more about them.
