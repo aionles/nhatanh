@@ -114,6 +114,10 @@ That's something very important to keep in mind for this course.
 
 
 ## Refret Array Function
+((Việc thực hiện các hàm trong mảng bằng Map
+systax:   const newNum=num.map((n)=>{ 
+return n*2;} )  ))
+
 In the last lecture we had a look at reference of primitive types something super important to keep
 
 in mind when working with javascript.
