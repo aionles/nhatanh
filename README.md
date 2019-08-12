@@ -2,6 +2,7 @@
 
 
 ### Refreshing Array Functions
+(((-Các lệnh gán trong react thì chỉ sao chép địa chỉ con trỏ chứ không sao chép giá trị vì lẽ đó khi thay đổi giá trị tại địa chỉ thì đối tượng mới cũng thay đổi. Nên nếu muốn sao chép thực sự thì ta phải tạo một đối tượng hoàn toàn mới và sao chép giá trị của đối tượng cũ chứ không phải hoàn toàn đối tượng. với systax sau: const secondPerson={...person};)))
 Now over the last lectures I introduced you to some of the most important next generation javascript
 
 features which you're going to see in those course.
