@@ -187,3 +187,32 @@ next generation javascript but normal javascript actually, be prepared to meet t
 I will explain what they do when we see them and always feel free to dive into docs like the Mozilla
 
 developer network to learn more about them.
+## Wrap up
+
+With that I want to conclude this module. We've learned a lot about next generation javascript and some
+
+important javascript concepts.
+
+In general you will meet a lot of the things you'll learn about in this module throughout the course.
+
+Don't be confused by it.
+
+It's still javascript.
+
+Just using some more modern features.
+
+That's just how we write React apps.
+
+The next module will now start with React.
+
+Now I will show you how to quickly create a project set up where we can use all these features while
+
+still shipping code that works in older browsers too.
+
+With that you're well prepared.
+
+Always feel free to go back to this module and have a look at a given feature if you forgot how it
+
+worked and you meet it in the course and want to refresh your knowledge.
+
+And with that let's dive into React.
